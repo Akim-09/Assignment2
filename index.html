@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .main-container {
+            width: 100%;
+            margin: 0 ;
+            padding: 0;
+        }
+        .nav-bar {
+            background-color: #333;
+            padding: 10px;
+            text-align: right;
+            height: 40px;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .nav-bar a:hover {
+            color: #4CAF50;
+        }
+        .section1 {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        h1 {
+            text-align: left;
+            color: #333;
+            margin-bottom: 30px;
+            
+        }
+        section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+            text-align: center;
+        }
+        section img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        section h2 {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        section p {
+            margin: 0;
+            color: #666;
+        }
+        button {
+            background-color: #ff8c00;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 18px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button::before {
+            content: "▶ ";
+            margin-right: 5px;
+        }
+        button:hover {
+            background-color: #e67e00;
+        }
+        @media (max-width: 768px) {
+            section {
+                flex-direction: column;
+                text-align: center;
+            }
+            section img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+    <div class="nav-bar">
+        <a href="Home-page.html">Home</a>
+        <a href="Sign-up.html">Sign up</a>
+        <a href="Login.html">Login</a>
+        <a href="Teach-with-us.html">Teach with us</a>
+        
+</div>
+    <h1>popular courses</h1>
+<div class="section1">
+    <section>
+        <h2>python programming</h2>
+        <img src="/images/python-programming-basics.jpg" alt="">
+        <p>python for beginners, intermediate and advanced</p>
+       <a href="https://www.youtube.com/watch?v=ix9cRaBkVe0&t=36139s" target="_blank"> <button>Watch video</button></a>
+    </section>
+
+    <section>
+        <h2>Django Web</h2>
+        <img src="/images/django.png" alt="">
+        <p>Django for beginners, intermediate and advanced</p>
+        <a href="https://www.youtube.com/watch?v=rHux0gMZ3Eg" target="_blank"><button>Watch video</button></a>
+    </section>
+
+    <section>
+        <h2>Data Science</h2>
+        <img src="/images/data-reporting.jpg" alt="">
+        <p>Data Science for beginners, intermediate and advanced</p>
+        <a href="https://www.youtube.com/watch?v=xPh5ihBWang" target="_blank"><button>Watch video</button></a>
+    </section>
+</div>
+
+<div class="section1">
+    <section>
+        <h2>Java programming</h2>
+        <img src="/images/java.jpg" alt="">
+        <p>Java for beginners, intermediate and advanced</p>
+       <a href="https://www.youtube.com/watch?v=ix9cRaBkVe0&t=36139s" target="_blank"> <button>Watch video</button></a>
+    </section>
+
+    <section>
+        <h2>HTML programming</h2>
+        <img src="/images/html.png" alt="">
+        <p>HTML for beginners, intermediate and advanced</p>
+        <a href="https://www.youtube.com/watch?v=rHux0gMZ3Eg" target="_blank"><button>Watch video</button></a>
+    </section>
+
+    <section>
+        <h2>C programming</h2>
+        <img src="/images/c-programming.png" alt="">
+        <p>C for beginners, intermediate and advanced</p>
+        <a href="https://www.youtube.com/watch?v=xPh5ihBWang" target="_blank"><button>Watch video</button></a>
+    </section>
+</div>
+
+    </div>
+</body>
+</html>
